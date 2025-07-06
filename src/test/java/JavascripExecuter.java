@@ -43,7 +43,9 @@ public class JavascripExecuter {
         //Get all attributes from wanted element
         getAllAttributes(inputNameTextBox);
 
+        jsExecutor.executeScript("location.reload();");
 
+        jsExecutor.executeScript("document.body.style.zoom='150%';");
 
     }
     public void scrollPage(){
